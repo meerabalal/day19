@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+   
+body{
+    background-color: rgb(245, 252, 252);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 9rem;
+    gap: 3rem;
+    height: 30rem;
+    }
+
+.container .box1{
+    background: white;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid;
+    
+    
+
+}
+.box1 p{
+    margin: 0.3rem;
+    padding: 1rem;
+
+   
+}
+
+.box1 i{
+    font-size: 3rem;
+}
+button{
+    width: 7rem;
+    height: 2rem;
+    background: red;
+    margin-top: 10rem;
+}
+
+
+.container .box2{
+    background: rgba(38, 130, 12, 0.886);
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid;
+
+}
+  .box2 p{
+    margin: 0.3rem;
+    padding: 1rem;
+}
+    
+    .box2 i{
+        font-size: 3rem;
+    }
+  
+  .container .box3{
+    background: white;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid;
+  }
+  .box3 i{
+    font-size: 3rem;
+    
+}
+
+    .box3 p{
+        margin: 0.3rem;
+        padding: 1rem;
+       
+    }
+
+    @media only screen and (max-width: 720px){
+        .container{
+            flex-direction: column;
+            height: 230vh;
+        }
+    }
+        
+    
+
+
+
+    
+    
+
+    
